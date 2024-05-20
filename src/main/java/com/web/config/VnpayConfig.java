@@ -20,10 +20,10 @@ public class VnpayConfig {
 //    @Value("${payment.vnPay.returnUrl}")
     private String vnp_ReturnUrl = "https://hcmutenoithat-backend.onrender.com/api/v1/payment/vn-pay-callback";
 //    @Value("${payment.vnPay.tmnCode}")
-    private String vnp_TmnCode = "EDLC3VEO";
+    private String vnp_TmnCode = "0OBXH4EM";
     @Getter
 //    @Value("${payment.vnPay.secretKey}")
-    private String secretKey = "VDFR098ABN15WD1BYA4YMTOAED6TP6E9";
+    private String secretKey = "M2V7ZZDBPQRIBRJSPL4TO25U42LVW9R6";
 //    @Value("${payment.vnPay.version}")
     private String vnp_Version = "2.1.0";
 //    @Value("${payment.vnPay.command}")

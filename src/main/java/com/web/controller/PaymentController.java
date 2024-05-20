@@ -40,10 +40,10 @@ public class PaymentController {
         String description = request.getParameter("description");
         if (status.equals("00")) {
         	cartService.placeOrder(new PlaceOrderDto(userId, address, description));
-        	response.sendRedirect("http://localhost:4200/payment-success");
+        	response.sendRedirect("https://hcmutenoithat.site/payment-success");
             return new ResponseEntity<>(new VNPayResponse("00", "Success", ""), HttpStatus.OK);
         } else {
-        	response.sendRedirect("http://localhost:4200/payment-failed");
+        	response.sendRedirect("https://hcmutenoithat.site/payment-failed");
             return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
         }
     }

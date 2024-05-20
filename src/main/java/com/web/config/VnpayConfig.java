@@ -18,7 +18,7 @@ public class VnpayConfig {
 //    @Value("${payment.vnPay.url}")
     private String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
 //    @Value("${payment.vnPay.returnUrl}")
-    private String vnp_ReturnUrl = "http://localhost:8080/api/v1/payment/vn-pay-callback";
+    private String vnp_ReturnUrl = "https://hcmutenoithat-backend.onrender.com/api/v1/payment/vn-pay-callback";
 //    @Value("${payment.vnPay.tmnCode}")
     private String vnp_TmnCode = "EDLC3VEO";
     @Getter
